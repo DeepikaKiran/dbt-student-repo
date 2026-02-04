@@ -1,0 +1,144 @@
+[0m22:17:15.535396 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F849D56780>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F84D8BE480>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F84D8BD4F0>]}
+
+
+============================== 22:17:15.577017 | d4bd2028-cabe-47a5-9ba2-eeca9070d590 ==============================
+[0m22:17:15.577017 [info ] [MainThread]: Running with dbt=1.11.2
+[0m22:17:15.582005 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\houjide\\.dbt', 'use_colors': 'True', 'invocation_command': 'dbt init --skip-profile-setup airbnb', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m22:17:17.340732 [debug] [MainThread]: Starter project path: C:\Users\houjide\OneDrive - EY\Documents\Deepika\DBT Course\dbt-student-repo\.venv\Lib\site-packages\dbt\include\starter_project
+[0m22:17:17.424730 [info ] [MainThread]: 
+Your new dbt project "airbnb" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m22:17:17.426918 [debug] [MainThread]: Command `dbt init` succeeded at 22:17:17.426918 after 2.54 seconds
+[0m22:17:17.426918 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F84DCF7F20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F84D9BE690>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F84F273E90>]}
+[0m22:17:17.427918 [debug] [MainThread]: Flushing usage events
+[0m22:17:19.431702 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m22:39:45.166194 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F66BEA0F20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F66D4FA960>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F669371460>]}
+
+
+============================== 22:39:45.180118 | f8036860-a07a-4c1e-8a99-839b1d2a6e63 ==============================
+[0m22:39:45.180118 [info ] [MainThread]: Running with dbt=1.11.2
+[0m22:39:45.182097 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\houjide\\.dbt', 'use_colors': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt debug', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m22:39:45.424360 [info ] [MainThread]: dbt version: 1.11.2
+[0m22:39:45.426359 [info ] [MainThread]: python version: 3.12.10
+[0m22:39:45.427359 [info ] [MainThread]: python path: C:\Users\houjide\OneDrive - EY\Documents\Deepika\DBT Course\dbt-student-repo\.venv\Scripts\python.exe
+[0m22:39:45.429359 [info ] [MainThread]: os info: Windows-11-10.0.26100-SP0
+[0m22:39:45.447550 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.databricks'
+[0m22:39:45.451554 [info ] [MainThread]: Using profiles dir at C:\Users\houjide\.dbt
+[0m22:39:45.453552 [info ] [MainThread]: Using profiles.yml file at C:\Users\houjide\.dbt\profiles.yml
+[0m22:39:45.455550 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\houjide\OneDrive - EY\Documents\Deepika\DBT Course\dbt-student-repo\dbt_project.yml
+[0m22:39:45.456547 [info ] [MainThread]: Configuration:
+[0m22:39:45.458553 [info ] [MainThread]:   profiles.yml file [[31mERROR invalid[0m]
+[0m22:39:45.459550 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m22:39:45.461549 [info ] [MainThread]: Required dependencies:
+[0m22:39:45.463549 [debug] [MainThread]: Executing "git --help"
+[0m22:39:46.213167 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m22:39:46.214179 [debug] [MainThread]: STDERR: "b''"
+[0m22:39:46.215180 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m22:39:46.216177 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m22:39:46.217180 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m22:39:46.219181 [info ] [MainThread]: Could not load dbt_project.yml
+Profile loading failed for the following reason:
+Runtime Error
+  Credentials in profile "dna_data_platform", target "dev" invalid: Runtime Error
+    Could not find adapter type databricks!
+
+
+[0m22:39:46.220177 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\houjide\OneDrive - EY\Documents\Deepika\DBT Course\dbt-student-repo\dbt_project.yml> not found
+
+[0m22:39:46.223710 [debug] [MainThread]: Command `dbt debug` failed at 22:39:46.222714 after 1.45 seconds
+[0m22:39:46.224746 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F66D5F7110>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F66D5F4FE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F669371460>]}
+[0m22:39:46.226703 [debug] [MainThread]: Flushing usage events
+[0m22:39:48.473433 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m22:41:14.359903 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019EA5EAD7F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019EA9D4F5C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019EA916D580>]}
+
+
+============================== 22:41:14.369011 | be983645-2826-40e8-afd2-e385fb04c774 ==============================
+[0m22:41:14.369011 [info ] [MainThread]: Running with dbt=1.11.2
+[0m22:41:14.369903 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\houjide\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt debug', 'indirect_selection': 'eager', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m22:41:14.410057 [info ] [MainThread]: dbt version: 1.11.2
+[0m22:41:14.412053 [info ] [MainThread]: python version: 3.12.10
+[0m22:41:14.413053 [info ] [MainThread]: python path: C:\Users\houjide\OneDrive - EY\Documents\Deepika\DBT Course\dbt-student-repo\.venv\Scripts\python.exe
+[0m22:41:14.414053 [info ] [MainThread]: os info: Windows-11-10.0.26100-SP0
+[0m22:41:14.426053 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.databricks'
+[0m22:41:14.430055 [info ] [MainThread]: Using profiles dir at C:\Users\houjide\.dbt
+[0m22:41:14.431054 [info ] [MainThread]: Using profiles.yml file at C:\Users\houjide\.dbt\profiles.yml
+[0m22:41:14.433054 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\houjide\OneDrive - EY\Documents\Deepika\DBT Course\dbt-student-repo\dbt_project.yml
+[0m22:41:14.435556 [info ] [MainThread]: Configuration:
+[0m22:41:14.437078 [info ] [MainThread]:   profiles.yml file [[31mERROR invalid[0m]
+[0m22:41:14.437587 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m22:41:14.438600 [info ] [MainThread]: Required dependencies:
+[0m22:41:14.440895 [debug] [MainThread]: Executing "git --help"
+[0m22:41:15.023870 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m22:41:15.024755 [debug] [MainThread]: STDERR: "b''"
+[0m22:41:15.025759 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m22:41:15.026749 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m22:41:15.027841 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m22:41:15.027841 [info ] [MainThread]: Could not load dbt_project.yml
+Profile loading failed for the following reason:
+Runtime Error
+  Credentials in profile "dna_data_platform", target "dev" invalid: Runtime Error
+    Could not find adapter type databricks!
+
+
+[0m22:41:15.028854 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\houjide\OneDrive - EY\Documents\Deepika\DBT Course\dbt-student-repo\dbt_project.yml> not found
+
+[0m22:41:15.030750 [debug] [MainThread]: Command `dbt debug` failed at 22:41:15.029747 after 1.01 seconds
+[0m22:41:15.030750 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019EA9A6EFC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019EAB3DAF60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019EA9FA8B60>]}
+[0m22:41:15.031754 [debug] [MainThread]: Flushing usage events
+[0m22:41:16.587714 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m22:36:40.729958 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000227C0A60B90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000227BB853470>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000227C042EDE0>]}
+
+
+============================== 22:36:40.755397 | a47aebbc-97de-4d4f-8dfc-95893af9b3a4 ==============================
+[0m22:36:40.755397 [info ] [MainThread]: Running with dbt=1.11.2
+[0m22:36:40.756397 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\houjide\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'use_colors': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt debug', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m22:36:41.496848 [info ] [MainThread]: dbt version: 1.11.2
+[0m22:36:41.497876 [info ] [MainThread]: python version: 3.12.10
+[0m22:36:41.498863 [info ] [MainThread]: python path: C:\Users\houjide\OneDrive - EY\Documents\Deepika\DBT Course\dbt-student-repo\.venv\Scripts\python.exe
+[0m22:36:41.499882 [info ] [MainThread]: os info: Windows-11-10.0.26100-SP0
+[0m22:36:41.506746 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.databricks'
+[0m22:36:41.507735 [info ] [MainThread]: Using profiles dir at C:\Users\houjide\.dbt
+[0m22:36:41.508858 [info ] [MainThread]: Using profiles.yml file at C:\Users\houjide\.dbt\profiles.yml
+[0m22:36:41.509854 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\houjide\OneDrive - EY\Documents\Deepika\DBT Course\dbt-student-repo\dbt_project.yml
+[0m22:36:41.510850 [info ] [MainThread]: Configuration:
+[0m22:36:41.511874 [info ] [MainThread]:   profiles.yml file [[31mERROR invalid[0m]
+[0m22:36:41.512869 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m22:36:41.513871 [info ] [MainThread]: Required dependencies:
+[0m22:36:41.515736 [debug] [MainThread]: Executing "git --help"
+[0m22:36:41.891122 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m22:36:41.892220 [debug] [MainThread]: STDERR: "b''"
+[0m22:36:41.892220 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m22:36:41.893207 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m22:36:41.894149 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m22:36:41.895241 [info ] [MainThread]: Could not load dbt_project.yml
+Profile loading failed for the following reason:
+Runtime Error
+  Credentials in profile "dna_data_platform", target "dev" invalid: Runtime Error
+    Could not find adapter type databricks!
+
+
+[0m22:36:41.896107 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\houjide\OneDrive - EY\Documents\Deepika\DBT Course\dbt-student-repo\dbt_project.yml> not found
+
+[0m22:36:41.897152 [debug] [MainThread]: Command `dbt debug` failed at 22:36:41.897152 after 1.44 seconds
+[0m22:36:41.898214 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000227C08B0D70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000227C03B6780>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000227C00C0FB0>]}
+[0m22:36:41.899205 [debug] [MainThread]: Flushing usage events
+[0m22:36:43.426039 [debug] [MainThread]: An error was encountered while trying to flush usage events
